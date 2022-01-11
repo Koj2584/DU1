@@ -85,6 +85,7 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.label4 = new System.Windows.Forms.Label();
             this.vyhra = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -1058,10 +1059,20 @@
             this.vyhra.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.vyhra.AutoSize = true;
             this.vyhra.Font = new System.Drawing.Font("Cooper Black", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.vyhra.Location = new System.Drawing.Point(664, 174);
+            this.vyhra.Location = new System.Drawing.Point(665, 156);
             this.vyhra.Name = "vyhra";
             this.vyhra.Size = new System.Drawing.Size(0, 74);
             this.vyhra.TabIndex = 56;
+            // 
+            // label6
+            // 
+            this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Cooper Black", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(665, 240);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(0, 74);
+            this.label6.TabIndex = 57;
             // 
             // Form1
             // 
@@ -1069,6 +1080,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGreen;
             this.ClientSize = new System.Drawing.Size(1340, 659);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.vyhra);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.listBox1);
@@ -1146,6 +1158,7 @@
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label vyhra;
+        private System.Windows.Forms.Label label6;
     }
 }
 
