@@ -15,12 +15,20 @@ namespace DU___GitHub
         public Form1()
         {
             InitializeComponent();
+
         }
+
+        int penize = 10000;
 
         private void button34_Click(object sender, EventArgs e)
         {
             int policko = Int32.Parse(((Button)sender).Text);
             label2.Text = "Vsadil jsi na políčko " + policko;
+        }
+
+        private void button39_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

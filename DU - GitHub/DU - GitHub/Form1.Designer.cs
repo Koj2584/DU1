@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -69,21 +68,26 @@
             this.button38 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.money = new System.Windows.Forms.Label();
+            this.vsadit = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.button39 = new System.Windows.Forms.Button();
+            this.button41 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel3.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Elephant", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(254, 83);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Ruleta";
             // 
             // button1
             // 
+            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button1.BackColor = System.Drawing.Color.DarkRed;
             this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button1.FlatAppearance.BorderSize = 0;
@@ -100,6 +104,8 @@
             // 
             // button2
             // 
+            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button2.BackColor = System.Drawing.Color.Black;
             this.button2.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button2.FlatAppearance.BorderSize = 0;
@@ -116,6 +122,8 @@
             // 
             // button3
             // 
+            this.button3.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button3.BackColor = System.Drawing.Color.DarkRed;
             this.button3.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button3.FlatAppearance.BorderSize = 0;
@@ -132,6 +140,8 @@
             // 
             // button4
             // 
+            this.button4.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button4.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button4.BackColor = System.Drawing.Color.Black;
             this.button4.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button4.FlatAppearance.BorderSize = 0;
@@ -148,6 +158,8 @@
             // 
             // button5
             // 
+            this.button5.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button5.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button5.BackColor = System.Drawing.Color.DarkRed;
             this.button5.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button5.FlatAppearance.BorderSize = 0;
@@ -164,6 +176,8 @@
             // 
             // button6
             // 
+            this.button6.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button6.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button6.BackColor = System.Drawing.Color.Black;
             this.button6.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button6.FlatAppearance.BorderSize = 0;
@@ -180,6 +194,8 @@
             // 
             // button7
             // 
+            this.button7.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button7.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button7.BackColor = System.Drawing.Color.DarkRed;
             this.button7.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button7.FlatAppearance.BorderSize = 0;
@@ -196,6 +212,8 @@
             // 
             // button8
             // 
+            this.button8.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button8.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button8.BackColor = System.Drawing.Color.Black;
             this.button8.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button8.FlatAppearance.BorderSize = 0;
@@ -212,6 +230,8 @@
             // 
             // button9
             // 
+            this.button9.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button9.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button9.BackColor = System.Drawing.Color.DarkRed;
             this.button9.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button9.FlatAppearance.BorderSize = 0;
@@ -228,6 +248,8 @@
             // 
             // button10
             // 
+            this.button10.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button10.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button10.BackColor = System.Drawing.Color.Black;
             this.button10.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button10.FlatAppearance.BorderSize = 0;
@@ -236,7 +258,7 @@
             this.button10.ForeColor = System.Drawing.Color.White;
             this.button10.Location = new System.Drawing.Point(235, 159);
             this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(70, 70);
+            this.button10.Size = new System.Drawing.Size(71, 70);
             this.button10.TabIndex = 12;
             this.button10.Text = "10";
             this.button10.UseVisualStyleBackColor = false;
@@ -244,6 +266,8 @@
             // 
             // button11
             // 
+            this.button11.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button11.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button11.BackColor = System.Drawing.Color.Black;
             this.button11.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button11.FlatAppearance.BorderSize = 0;
@@ -252,7 +276,7 @@
             this.button11.ForeColor = System.Drawing.Color.White;
             this.button11.Location = new System.Drawing.Point(235, 83);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(70, 70);
+            this.button11.Size = new System.Drawing.Size(71, 70);
             this.button11.TabIndex = 11;
             this.button11.Text = "11";
             this.button11.UseVisualStyleBackColor = false;
@@ -260,6 +284,8 @@
             // 
             // button12
             // 
+            this.button12.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button12.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button12.BackColor = System.Drawing.Color.DarkRed;
             this.button12.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button12.FlatAppearance.BorderSize = 0;
@@ -268,7 +294,7 @@
             this.button12.ForeColor = System.Drawing.Color.White;
             this.button12.Location = new System.Drawing.Point(235, 7);
             this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(70, 70);
+            this.button12.Size = new System.Drawing.Size(71, 70);
             this.button12.TabIndex = 10;
             this.button12.Text = "12";
             this.button12.UseVisualStyleBackColor = false;
@@ -276,6 +302,8 @@
             // 
             // button13
             // 
+            this.button13.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button13.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button13.BackColor = System.Drawing.Color.Black;
             this.button13.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button13.FlatAppearance.BorderSize = 0;
@@ -284,7 +312,7 @@
             this.button13.ForeColor = System.Drawing.Color.White;
             this.button13.Location = new System.Drawing.Point(539, 159);
             this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(70, 70);
+            this.button13.Size = new System.Drawing.Size(71, 70);
             this.button13.TabIndex = 24;
             this.button13.Text = "22";
             this.button13.UseVisualStyleBackColor = false;
@@ -292,6 +320,8 @@
             // 
             // button14
             // 
+            this.button14.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button14.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button14.BackColor = System.Drawing.Color.DarkRed;
             this.button14.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button14.FlatAppearance.BorderSize = 0;
@@ -300,7 +330,7 @@
             this.button14.ForeColor = System.Drawing.Color.White;
             this.button14.Location = new System.Drawing.Point(539, 83);
             this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(70, 70);
+            this.button14.Size = new System.Drawing.Size(71, 70);
             this.button14.TabIndex = 23;
             this.button14.Text = "23";
             this.button14.UseVisualStyleBackColor = false;
@@ -308,6 +338,8 @@
             // 
             // button15
             // 
+            this.button15.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button15.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button15.BackColor = System.Drawing.Color.Black;
             this.button15.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button15.FlatAppearance.BorderSize = 0;
@@ -316,7 +348,7 @@
             this.button15.ForeColor = System.Drawing.Color.White;
             this.button15.Location = new System.Drawing.Point(539, 7);
             this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(70, 70);
+            this.button15.Size = new System.Drawing.Size(71, 70);
             this.button15.TabIndex = 22;
             this.button15.Text = "24";
             this.button15.UseVisualStyleBackColor = false;
@@ -324,6 +356,8 @@
             // 
             // button16
             // 
+            this.button16.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button16.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button16.BackColor = System.Drawing.Color.DarkRed;
             this.button16.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button16.FlatAppearance.BorderSize = 0;
@@ -332,7 +366,7 @@
             this.button16.ForeColor = System.Drawing.Color.White;
             this.button16.Location = new System.Drawing.Point(463, 159);
             this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(70, 70);
+            this.button16.Size = new System.Drawing.Size(71, 70);
             this.button16.TabIndex = 21;
             this.button16.Text = "19";
             this.button16.UseVisualStyleBackColor = false;
@@ -340,6 +374,8 @@
             // 
             // button17
             // 
+            this.button17.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button17.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button17.BackColor = System.Drawing.Color.Black;
             this.button17.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button17.FlatAppearance.BorderSize = 0;
@@ -348,7 +384,7 @@
             this.button17.ForeColor = System.Drawing.Color.White;
             this.button17.Location = new System.Drawing.Point(463, 83);
             this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(70, 70);
+            this.button17.Size = new System.Drawing.Size(71, 70);
             this.button17.TabIndex = 20;
             this.button17.Text = "20";
             this.button17.UseVisualStyleBackColor = false;
@@ -356,6 +392,8 @@
             // 
             // button18
             // 
+            this.button18.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button18.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button18.BackColor = System.Drawing.Color.DarkRed;
             this.button18.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button18.FlatAppearance.BorderSize = 0;
@@ -364,7 +402,7 @@
             this.button18.ForeColor = System.Drawing.Color.White;
             this.button18.Location = new System.Drawing.Point(463, 7);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(70, 70);
+            this.button18.Size = new System.Drawing.Size(71, 70);
             this.button18.TabIndex = 19;
             this.button18.Text = "21";
             this.button18.UseVisualStyleBackColor = false;
@@ -372,6 +410,8 @@
             // 
             // button19
             // 
+            this.button19.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button19.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button19.BackColor = System.Drawing.Color.DarkRed;
             this.button19.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button19.FlatAppearance.BorderSize = 0;
@@ -380,7 +420,7 @@
             this.button19.ForeColor = System.Drawing.Color.White;
             this.button19.Location = new System.Drawing.Point(387, 159);
             this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(70, 70);
+            this.button19.Size = new System.Drawing.Size(71, 70);
             this.button19.TabIndex = 18;
             this.button19.Text = "16";
             this.button19.UseVisualStyleBackColor = false;
@@ -388,6 +428,8 @@
             // 
             // button20
             // 
+            this.button20.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button20.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button20.BackColor = System.Drawing.Color.Black;
             this.button20.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button20.FlatAppearance.BorderSize = 0;
@@ -396,7 +438,7 @@
             this.button20.ForeColor = System.Drawing.Color.White;
             this.button20.Location = new System.Drawing.Point(387, 83);
             this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(70, 70);
+            this.button20.Size = new System.Drawing.Size(71, 70);
             this.button20.TabIndex = 17;
             this.button20.Text = "17";
             this.button20.UseVisualStyleBackColor = false;
@@ -404,6 +446,8 @@
             // 
             // button21
             // 
+            this.button21.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button21.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button21.BackColor = System.Drawing.Color.DarkRed;
             this.button21.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button21.FlatAppearance.BorderSize = 0;
@@ -412,7 +456,7 @@
             this.button21.ForeColor = System.Drawing.Color.White;
             this.button21.Location = new System.Drawing.Point(387, 7);
             this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(70, 70);
+            this.button21.Size = new System.Drawing.Size(71, 70);
             this.button21.TabIndex = 16;
             this.button21.Text = "18";
             this.button21.UseVisualStyleBackColor = false;
@@ -420,6 +464,8 @@
             // 
             // button22
             // 
+            this.button22.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button22.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button22.BackColor = System.Drawing.Color.Black;
             this.button22.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button22.FlatAppearance.BorderSize = 0;
@@ -428,7 +474,7 @@
             this.button22.ForeColor = System.Drawing.Color.White;
             this.button22.Location = new System.Drawing.Point(311, 159);
             this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(70, 70);
+            this.button22.Size = new System.Drawing.Size(71, 70);
             this.button22.TabIndex = 15;
             this.button22.Text = "13";
             this.button22.UseVisualStyleBackColor = false;
@@ -436,6 +482,8 @@
             // 
             // button23
             // 
+            this.button23.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button23.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button23.BackColor = System.Drawing.Color.DarkRed;
             this.button23.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button23.FlatAppearance.BorderSize = 0;
@@ -444,7 +492,7 @@
             this.button23.ForeColor = System.Drawing.Color.White;
             this.button23.Location = new System.Drawing.Point(311, 83);
             this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(70, 70);
+            this.button23.Size = new System.Drawing.Size(71, 70);
             this.button23.TabIndex = 14;
             this.button23.Text = "14";
             this.button23.UseVisualStyleBackColor = false;
@@ -452,6 +500,8 @@
             // 
             // button24
             // 
+            this.button24.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button24.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button24.BackColor = System.Drawing.Color.Black;
             this.button24.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button24.FlatAppearance.BorderSize = 0;
@@ -460,7 +510,7 @@
             this.button24.ForeColor = System.Drawing.Color.White;
             this.button24.Location = new System.Drawing.Point(311, 7);
             this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(70, 70);
+            this.button24.Size = new System.Drawing.Size(71, 70);
             this.button24.TabIndex = 13;
             this.button24.Text = "15";
             this.button24.UseVisualStyleBackColor = false;
@@ -468,6 +518,8 @@
             // 
             // button25
             // 
+            this.button25.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button25.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button25.BackColor = System.Drawing.Color.DarkRed;
             this.button25.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button25.FlatAppearance.BorderSize = 0;
@@ -476,7 +528,7 @@
             this.button25.ForeColor = System.Drawing.Color.White;
             this.button25.Location = new System.Drawing.Point(843, 159);
             this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(70, 70);
+            this.button25.Size = new System.Drawing.Size(71, 70);
             this.button25.TabIndex = 36;
             this.button25.Text = "34";
             this.button25.UseVisualStyleBackColor = false;
@@ -484,6 +536,8 @@
             // 
             // button26
             // 
+            this.button26.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button26.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button26.BackColor = System.Drawing.Color.Black;
             this.button26.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button26.FlatAppearance.BorderSize = 0;
@@ -492,7 +546,7 @@
             this.button26.ForeColor = System.Drawing.Color.White;
             this.button26.Location = new System.Drawing.Point(843, 83);
             this.button26.Name = "button26";
-            this.button26.Size = new System.Drawing.Size(70, 70);
+            this.button26.Size = new System.Drawing.Size(71, 70);
             this.button26.TabIndex = 35;
             this.button26.Text = "35";
             this.button26.UseVisualStyleBackColor = false;
@@ -500,6 +554,8 @@
             // 
             // button27
             // 
+            this.button27.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button27.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button27.BackColor = System.Drawing.Color.DarkRed;
             this.button27.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button27.FlatAppearance.BorderSize = 0;
@@ -508,7 +564,7 @@
             this.button27.ForeColor = System.Drawing.Color.White;
             this.button27.Location = new System.Drawing.Point(843, 7);
             this.button27.Name = "button27";
-            this.button27.Size = new System.Drawing.Size(70, 70);
+            this.button27.Size = new System.Drawing.Size(71, 70);
             this.button27.TabIndex = 34;
             this.button27.Text = "36";
             this.button27.UseVisualStyleBackColor = false;
@@ -516,6 +572,8 @@
             // 
             // button28
             // 
+            this.button28.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button28.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button28.BackColor = System.Drawing.Color.Black;
             this.button28.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button28.FlatAppearance.BorderSize = 0;
@@ -524,7 +582,7 @@
             this.button28.ForeColor = System.Drawing.Color.White;
             this.button28.Location = new System.Drawing.Point(767, 159);
             this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(70, 70);
+            this.button28.Size = new System.Drawing.Size(71, 70);
             this.button28.TabIndex = 33;
             this.button28.Text = "31";
             this.button28.UseVisualStyleBackColor = false;
@@ -532,6 +590,8 @@
             // 
             // button29
             // 
+            this.button29.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button29.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button29.BackColor = System.Drawing.Color.DarkRed;
             this.button29.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button29.FlatAppearance.BorderSize = 0;
@@ -540,7 +600,7 @@
             this.button29.ForeColor = System.Drawing.Color.White;
             this.button29.Location = new System.Drawing.Point(767, 83);
             this.button29.Name = "button29";
-            this.button29.Size = new System.Drawing.Size(70, 70);
+            this.button29.Size = new System.Drawing.Size(71, 70);
             this.button29.TabIndex = 32;
             this.button29.Text = "32";
             this.button29.UseVisualStyleBackColor = false;
@@ -548,6 +608,8 @@
             // 
             // button30
             // 
+            this.button30.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button30.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button30.BackColor = System.Drawing.Color.Black;
             this.button30.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button30.FlatAppearance.BorderSize = 0;
@@ -556,7 +618,7 @@
             this.button30.ForeColor = System.Drawing.Color.White;
             this.button30.Location = new System.Drawing.Point(767, 7);
             this.button30.Name = "button30";
-            this.button30.Size = new System.Drawing.Size(70, 70);
+            this.button30.Size = new System.Drawing.Size(71, 70);
             this.button30.TabIndex = 31;
             this.button30.Text = "33";
             this.button30.UseVisualStyleBackColor = false;
@@ -564,6 +626,8 @@
             // 
             // button31
             // 
+            this.button31.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button31.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button31.BackColor = System.Drawing.Color.Black;
             this.button31.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button31.FlatAppearance.BorderSize = 0;
@@ -572,7 +636,7 @@
             this.button31.ForeColor = System.Drawing.Color.White;
             this.button31.Location = new System.Drawing.Point(691, 159);
             this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(70, 70);
+            this.button31.Size = new System.Drawing.Size(71, 70);
             this.button31.TabIndex = 30;
             this.button31.Text = "28";
             this.button31.UseVisualStyleBackColor = false;
@@ -580,6 +644,8 @@
             // 
             // button32
             // 
+            this.button32.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button32.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button32.BackColor = System.Drawing.Color.Black;
             this.button32.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button32.FlatAppearance.BorderSize = 0;
@@ -588,7 +654,7 @@
             this.button32.ForeColor = System.Drawing.Color.White;
             this.button32.Location = new System.Drawing.Point(691, 83);
             this.button32.Name = "button32";
-            this.button32.Size = new System.Drawing.Size(70, 70);
+            this.button32.Size = new System.Drawing.Size(71, 70);
             this.button32.TabIndex = 29;
             this.button32.Text = "29";
             this.button32.UseVisualStyleBackColor = false;
@@ -596,6 +662,8 @@
             // 
             // button33
             // 
+            this.button33.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button33.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button33.BackColor = System.Drawing.Color.DarkRed;
             this.button33.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button33.FlatAppearance.BorderSize = 0;
@@ -604,7 +672,7 @@
             this.button33.ForeColor = System.Drawing.Color.White;
             this.button33.Location = new System.Drawing.Point(691, 7);
             this.button33.Name = "button33";
-            this.button33.Size = new System.Drawing.Size(70, 70);
+            this.button33.Size = new System.Drawing.Size(71, 70);
             this.button33.TabIndex = 28;
             this.button33.Text = "30";
             this.button33.UseVisualStyleBackColor = false;
@@ -612,6 +680,8 @@
             // 
             // button34
             // 
+            this.button34.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button34.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button34.BackColor = System.Drawing.Color.DarkRed;
             this.button34.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button34.FlatAppearance.BorderSize = 0;
@@ -620,7 +690,7 @@
             this.button34.ForeColor = System.Drawing.Color.White;
             this.button34.Location = new System.Drawing.Point(615, 159);
             this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(70, 70);
+            this.button34.Size = new System.Drawing.Size(71, 70);
             this.button34.TabIndex = 27;
             this.button34.Text = "25";
             this.button34.UseVisualStyleBackColor = false;
@@ -628,6 +698,8 @@
             // 
             // button35
             // 
+            this.button35.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button35.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button35.BackColor = System.Drawing.Color.Black;
             this.button35.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button35.FlatAppearance.BorderSize = 0;
@@ -636,7 +708,7 @@
             this.button35.ForeColor = System.Drawing.Color.White;
             this.button35.Location = new System.Drawing.Point(615, 83);
             this.button35.Name = "button35";
-            this.button35.Size = new System.Drawing.Size(70, 70);
+            this.button35.Size = new System.Drawing.Size(71, 70);
             this.button35.TabIndex = 26;
             this.button35.Text = "26";
             this.button35.UseVisualStyleBackColor = false;
@@ -644,6 +716,8 @@
             // 
             // button36
             // 
+            this.button36.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button36.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button36.BackColor = System.Drawing.Color.DarkRed;
             this.button36.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
             this.button36.FlatAppearance.BorderSize = 0;
@@ -652,7 +726,7 @@
             this.button36.ForeColor = System.Drawing.Color.White;
             this.button36.Location = new System.Drawing.Point(615, 7);
             this.button36.Name = "button36";
-            this.button36.Size = new System.Drawing.Size(70, 70);
+            this.button36.Size = new System.Drawing.Size(71, 70);
             this.button36.TabIndex = 25;
             this.button36.Text = "27";
             this.button36.UseVisualStyleBackColor = false;
@@ -660,6 +734,8 @@
             // 
             // button37
             // 
+            this.button37.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button37.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button37.BackColor = System.Drawing.Color.DarkRed;
             this.button37.FlatAppearance.BorderSize = 0;
             this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -674,6 +750,8 @@
             // 
             // button38
             // 
+            this.button38.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button38.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.button38.BackColor = System.Drawing.Color.Black;
             this.button38.FlatAppearance.BorderSize = 0;
             this.button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -688,6 +766,7 @@
             // 
             // panel1
             // 
+            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.Gainsboro;
             this.panel1.Controls.Add(this.button34);
             this.panel1.Controls.Add(this.button38);
@@ -727,7 +806,7 @@
             this.panel1.Controls.Add(this.button19);
             this.panel1.Controls.Add(this.button17);
             this.panel1.Controls.Add(this.button18);
-            this.panel1.Location = new System.Drawing.Point(199, 313);
+            this.panel1.Location = new System.Drawing.Point(389, 320);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(920, 312);
             this.panel1.TabIndex = 39;
@@ -736,31 +815,172 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Bookman Old Style", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(422, 108);
+            this.label2.Location = new System.Drawing.Point(382, 243);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(0, 41);
             this.label2.TabIndex = 40;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Engravers MT", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Location = new System.Drawing.Point(5, 7);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(184, 34);
+            this.label1.TabIndex = 42;
+            this.label1.Text = "Money: ";
+            // 
+            // money
+            // 
+            this.money.AutoSize = true;
+            this.money.Font = new System.Drawing.Font("Elephant", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.money.ForeColor = System.Drawing.Color.Black;
+            this.money.Location = new System.Drawing.Point(184, 5);
+            this.money.Name = "money";
+            this.money.Size = new System.Drawing.Size(0, 38);
+            this.money.TabIndex = 43;
+            // 
+            // vsadit
+            // 
+            this.vsadit.AutoSize = true;
+            this.vsadit.Font = new System.Drawing.Font("Elephant", 22F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vsadit.ForeColor = System.Drawing.Color.Black;
+            this.vsadit.Location = new System.Drawing.Point(182, 59);
+            this.vsadit.Name = "vsadit";
+            this.vsadit.Size = new System.Drawing.Size(61, 38);
+            this.vsadit.TabIndex = 45;
+            this.vsadit.Text = "0$";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Engravers MT", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(3, 61);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(186, 34);
+            this.label5.TabIndex = 44;
+            this.label5.Text = "Vsadit: ";
+            // 
+            // panel2
+            // 
+            this.panel2.AutoSize = true;
+            this.panel2.BackColor = System.Drawing.Color.Gray;
+            this.panel2.Controls.Add(this.panel3);
+            this.panel2.Controls.Add(this.label3);
+            this.panel2.Controls.Add(this.button41);
+            this.panel2.Controls.Add(this.button39);
+            this.panel2.Controls.Add(this.label1);
+            this.panel2.Controls.Add(this.vsadit);
+            this.panel2.Controls.Add(this.money);
+            this.panel2.Controls.Add(this.label5);
+            this.panel2.Location = new System.Drawing.Point(12, 12);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(329, 215);
+            this.panel2.TabIndex = 46;
+            // 
+            // button39
+            // 
+            this.button39.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button39.BackColor = System.Drawing.Color.Green;
+            this.button39.FlatAppearance.BorderSize = 0;
+            this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button39.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button39.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.button39.Location = new System.Drawing.Point(9, 144);
+            this.button39.Name = "button39";
+            this.button39.Size = new System.Drawing.Size(62, 60);
+            this.button39.TabIndex = 46;
+            this.button39.Text = "＋";
+            this.button39.UseVisualStyleBackColor = false;
+            this.button39.Click += new System.EventHandler(this.button39_Click);
+            // 
+            // button41
+            // 
+            this.button41.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.button41.BackColor = System.Drawing.Color.DarkRed;
+            this.button41.FlatAppearance.BorderSize = 0;
+            this.button41.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button41.Font = new System.Drawing.Font("Microsoft Sans Serif", 28F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button41.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.button41.Location = new System.Drawing.Point(258, 144);
+            this.button41.Name = "button41";
+            this.button41.Size = new System.Drawing.Size(62, 60);
+            this.button41.TabIndex = 48;
+            this.button41.Text = "–";
+            this.button41.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button41.UseVisualStyleBackColor = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Location = new System.Drawing.Point(77, 129);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(177, 12);
+            this.label3.TabIndex = 49;
+            this.label3.Text = "(Do černého pole napiš kolik chceš vsadit)";
+            // 
+            // panel3
+            // 
+            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel3.BackColor = System.Drawing.Color.Black;
+            this.panel3.Controls.Add(this.label4);
+            this.panel3.Controls.Add(this.textBox1);
+            this.panel3.Location = new System.Drawing.Point(75, 144);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(179, 59);
+            this.panel3.TabIndex = 50;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.textBox1.ForeColor = System.Drawing.SystemColors.Menu;
+            this.textBox1.Location = new System.Drawing.Point(13, 15);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(120, 31);
+            this.textBox1.TabIndex = 0;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(139, 15);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(29, 31);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "$";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.ForestGreen;
+            this.BackColor = System.Drawing.Color.DarkGreen;
             this.ClientSize = new System.Drawing.Size(1340, 659);
+            this.Controls.Add(this.panel2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
@@ -801,6 +1021,17 @@
         private System.Windows.Forms.Button button38;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label money;
+        private System.Windows.Forms.Label vsadit;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button41;
+        private System.Windows.Forms.Button button39;
+        private System.Windows.Forms.Label label4;
     }
 }
 
