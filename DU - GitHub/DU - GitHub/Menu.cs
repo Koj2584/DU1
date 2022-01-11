@@ -19,7 +19,9 @@ namespace DU___GitHub
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            Form hra = new Form1(this);
+            hra.Show();
+            this.Visible = false;
         }
 
         private void button2_Click(object sender, EventArgs e)

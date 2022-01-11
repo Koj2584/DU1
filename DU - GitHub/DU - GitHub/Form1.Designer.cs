@@ -67,19 +67,24 @@
             this.button37 = new System.Windows.Forms.Button();
             this.button38 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button40 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.money = new System.Windows.Forms.Label();
             this.vsadit = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button39 = new System.Windows.Forms.Button();
-            this.button41 = new System.Windows.Forms.Button();
-            this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button40 = new System.Windows.Forms.Button();
-            this.button42 = new System.Windows.Forms.Button();
             this.button43 = new System.Windows.Forms.Button();
+            this.button42 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.button41 = new System.Windows.Forms.Button();
+            this.button39 = new System.Windows.Forms.Button();
+            this.button44 = new System.Windows.Forms.Button();
+            this.vsaditNaVyber = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.vyhra = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -748,6 +753,7 @@
             this.button37.TabIndex = 37;
             this.button37.Text = "Red";
             this.button37.UseVisualStyleBackColor = false;
+            this.button37.Click += new System.EventHandler(this.button37_Click);
             // 
             // button38
             // 
@@ -764,6 +770,7 @@
             this.button38.TabIndex = 38;
             this.button38.Text = "Black";
             this.button38.UseVisualStyleBackColor = false;
+            this.button38.Click += new System.EventHandler(this.button38_Click);
             // 
             // panel1
             // 
@@ -813,11 +820,29 @@
             this.panel1.Size = new System.Drawing.Size(996, 312);
             this.panel1.TabIndex = 39;
             // 
+            // button40
+            // 
+            this.button40.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button40.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.button40.BackColor = System.Drawing.Color.ForestGreen;
+            this.button40.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
+            this.button40.FlatAppearance.BorderSize = 0;
+            this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button40.Font = new System.Drawing.Font("Engravers MT", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button40.ForeColor = System.Drawing.Color.White;
+            this.button40.Location = new System.Drawing.Point(7, 7);
+            this.button40.Name = "button40";
+            this.button40.Size = new System.Drawing.Size(70, 222);
+            this.button40.TabIndex = 39;
+            this.button40.Text = "0";
+            this.button40.UseVisualStyleBackColor = false;
+            this.button40.Click += new System.EventHandler(this.button34_Click);
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Bookman Old Style", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(382, 243);
+            this.label2.Location = new System.Drawing.Point(387, 42);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(0, 41);
             this.label2.TabIndex = 40;
@@ -882,22 +907,59 @@
             this.panel2.Size = new System.Drawing.Size(329, 215);
             this.panel2.TabIndex = 46;
             // 
-            // button39
+            // panel3
             // 
-            this.button39.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.button39.BackColor = System.Drawing.Color.Green;
-            this.button39.FlatAppearance.BorderSize = 0;
-            this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button39.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button39.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button39.Location = new System.Drawing.Point(9, 144);
-            this.button39.Name = "button39";
-            this.button39.Size = new System.Drawing.Size(62, 60);
-            this.button39.TabIndex = 46;
-            this.button39.Text = "＋";
-            this.button39.UseVisualStyleBackColor = false;
-            this.button39.Click += new System.EventHandler(this.button39_Click);
+            this.panel3.BackColor = System.Drawing.Color.Black;
+            this.panel3.Controls.Add(this.button43);
+            this.panel3.Controls.Add(this.button42);
+            this.panel3.Location = new System.Drawing.Point(75, 144);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(179, 60);
+            this.panel3.TabIndex = 50;
+            // 
+            // button43
+            // 
+            this.button43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.button43.Dock = System.Windows.Forms.DockStyle.Right;
+            this.button43.FlatAppearance.BorderSize = 0;
+            this.button43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button43.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button43.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.button43.Location = new System.Drawing.Point(94, 0);
+            this.button43.Name = "button43";
+            this.button43.Size = new System.Drawing.Size(85, 60);
+            this.button43.TabIndex = 52;
+            this.button43.Text = "/2";
+            this.button43.UseVisualStyleBackColor = false;
+            this.button43.Click += new System.EventHandler(this.button43_Click);
+            // 
+            // button42
+            // 
+            this.button42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.button42.Dock = System.Windows.Forms.DockStyle.Left;
+            this.button42.FlatAppearance.BorderSize = 0;
+            this.button42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button42.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button42.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.button42.Location = new System.Drawing.Point(0, 0);
+            this.button42.Name = "button42";
+            this.button42.Size = new System.Drawing.Size(85, 60);
+            this.button42.TabIndex = 51;
+            this.button42.Text = "*2";
+            this.button42.UseVisualStyleBackColor = false;
+            this.button42.Click += new System.EventHandler(this.button42_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Location = new System.Drawing.Point(77, 129);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(177, 12);
+            this.label3.TabIndex = 49;
+            this.label3.Text = "(Do černého pole napiš kolik chceš vsadit)";
             // 
             // button41
             // 
@@ -917,75 +979,89 @@
             this.button41.UseVisualStyleBackColor = false;
             this.button41.Click += new System.EventHandler(this.button41_Click);
             // 
-            // label3
+            // button39
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(77, 129);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(177, 12);
-            this.label3.TabIndex = 49;
-            this.label3.Text = "(Do černého pole napiš kolik chceš vsadit)";
-            // 
-            // panel3
-            // 
-            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.button39.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel3.BackColor = System.Drawing.Color.Black;
-            this.panel3.Controls.Add(this.button43);
-            this.panel3.Controls.Add(this.button42);
-            this.panel3.Location = new System.Drawing.Point(75, 144);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(179, 60);
-            this.panel3.TabIndex = 50;
+            this.button39.BackColor = System.Drawing.Color.Green;
+            this.button39.FlatAppearance.BorderSize = 0;
+            this.button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button39.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button39.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.button39.Location = new System.Drawing.Point(9, 144);
+            this.button39.Name = "button39";
+            this.button39.Size = new System.Drawing.Size(62, 60);
+            this.button39.TabIndex = 46;
+            this.button39.Text = "＋";
+            this.button39.UseVisualStyleBackColor = false;
+            this.button39.Click += new System.EventHandler(this.button39_Click);
             // 
-            // button40
+            // button44
             // 
-            this.button40.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button40.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.button40.BackColor = System.Drawing.Color.ForestGreen;
-            this.button40.FlatAppearance.BorderColor = System.Drawing.Color.Gold;
-            this.button40.FlatAppearance.BorderSize = 0;
-            this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button40.Font = new System.Drawing.Font("Engravers MT", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button40.ForeColor = System.Drawing.Color.White;
-            this.button40.Location = new System.Drawing.Point(7, 7);
-            this.button40.Name = "button40";
-            this.button40.Size = new System.Drawing.Size(70, 222);
-            this.button40.TabIndex = 39;
-            this.button40.Text = "0";
-            this.button40.UseVisualStyleBackColor = false;
-            this.button40.Click += new System.EventHandler(this.button34_Click);
+            this.button44.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button44.BackColor = System.Drawing.Color.Black;
+            this.button44.FlatAppearance.BorderSize = 0;
+            this.button44.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button44.Font = new System.Drawing.Font("Bernard MT Condensed", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button44.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button44.Location = new System.Drawing.Point(1130, 12);
+            this.button44.Name = "button44";
+            this.button44.Size = new System.Drawing.Size(198, 52);
+            this.button44.TabIndex = 47;
+            this.button44.Text = "Start";
+            this.button44.UseVisualStyleBackColor = false;
+            this.button44.Click += new System.EventHandler(this.button44_Click);
             // 
-            // button42
+            // vsaditNaVyber
             // 
-            this.button42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.button42.Dock = System.Windows.Forms.DockStyle.Left;
-            this.button42.FlatAppearance.BorderSize = 0;
-            this.button42.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button42.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button42.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button42.Location = new System.Drawing.Point(0, 0);
-            this.button42.Name = "button42";
-            this.button42.Size = new System.Drawing.Size(85, 60);
-            this.button42.TabIndex = 51;
-            this.button42.Text = "*2";
-            this.button42.UseVisualStyleBackColor = false;
+            this.vsaditNaVyber.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
+            this.vsaditNaVyber.FlatAppearance.BorderSize = 0;
+            this.vsaditNaVyber.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.vsaditNaVyber.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.vsaditNaVyber.ForeColor = System.Drawing.Color.WhiteSmoke;
+            this.vsaditNaVyber.Location = new System.Drawing.Point(380, 110);
+            this.vsaditNaVyber.Name = "vsaditNaVyber";
+            this.vsaditNaVyber.Size = new System.Drawing.Size(123, 66);
+            this.vsaditNaVyber.TabIndex = 53;
+            this.vsaditNaVyber.Text = "Vsadit na výběr";
+            this.vsaditNaVyber.UseVisualStyleBackColor = false;
+            this.vsaditNaVyber.Click += new System.EventHandler(this.vsaditNaVyber_Click);
             // 
-            // button43
+            // listBox1
             // 
-            this.button43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.button43.Dock = System.Windows.Forms.DockStyle.Right;
-            this.button43.FlatAppearance.BorderSize = 0;
-            this.button43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button43.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.button43.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.button43.Location = new System.Drawing.Point(94, 0);
-            this.button43.Name = "button43";
-            this.button43.Size = new System.Drawing.Size(85, 60);
-            this.button43.TabIndex = 52;
-            this.button43.Text = "/2";
-            this.button43.UseVisualStyleBackColor = false;
+            this.listBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.listBox1.BackColor = System.Drawing.Color.DarkGreen;
+            this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listBox1.Font = new System.Drawing.Font("Elephant", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.listBox1.ForeColor = System.Drawing.Color.Gainsboro;
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 27;
+            this.listBox1.Location = new System.Drawing.Point(23, 283);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(309, 351);
+            this.listBox1.TabIndex = 54;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Elephant", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Location = new System.Drawing.Point(6, 240);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(291, 31);
+            this.label4.TabIndex = 55;
+            this.label4.Text = "Vsazeno (na co - kolik):";
+            // 
+            // vyhra
+            // 
+            this.vyhra.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.vyhra.AutoSize = true;
+            this.vyhra.Font = new System.Drawing.Font("Cooper Black", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vyhra.Location = new System.Drawing.Point(664, 174);
+            this.vyhra.Name = "vyhra";
+            this.vyhra.Size = new System.Drawing.Size(0, 74);
+            this.vyhra.TabIndex = 56;
             // 
             // Form1
             // 
@@ -993,6 +1069,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGreen;
             this.ClientSize = new System.Drawing.Size(1340, 659);
+            this.Controls.Add(this.vyhra);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.vsaditNaVyber);
+            this.Controls.Add(this.button44);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
@@ -1060,6 +1141,11 @@
         private System.Windows.Forms.Button button40;
         private System.Windows.Forms.Button button43;
         private System.Windows.Forms.Button button42;
+        private System.Windows.Forms.Button button44;
+        private System.Windows.Forms.Button vsaditNaVyber;
+        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label vyhra;
     }
 }
 
