@@ -1,0 +1,10 @@
+D:\Koj\Programování\C#\DU - GitHub\DU - GitHub\bin\Debug\DU - GitHub.exe.config
+D:\Koj\Programování\C#\DU - GitHub\DU - GitHub\bin\Debug\DU - GitHub.exe
+D:\Koj\Programování\C#\DU - GitHub\DU - GitHub\bin\Debug\DU - GitHub.pdb
+D:\Koj\Programování\C#\DU - GitHub\DU - GitHub\obj\Debug\DU - GitHub.csprojAssemblyReference.cache
+D:\Koj\Programování\C#\DU - GitHub\DU - GitHub\obj\Debug\DU___GitHub.Form1.resources
+D:\Koj\Programování\C#\DU - GitHub\DU - GitHub\obj\Debug\DU___GitHub.Properties.Resources.resources
+D:\Koj\Programování\C#\DU - GitHub\DU - GitHub\obj\Debug\DU - GitHub.csproj.GenerateResource.cache
+D:\Koj\Programování\C#\DU - GitHub\DU - GitHub\obj\Debug\DU - GitHub.csproj.CoreCompileInputs.cache
+D:\Koj\Programování\C#\DU - GitHub\DU - GitHub\obj\Debug\DU - GitHub.exe
+D:\Koj\Programování\C#\DU - GitHub\DU - GitHub\obj\Debug\DU - GitHub.pdb
