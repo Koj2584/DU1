@@ -17,6 +17,9 @@ namespace DU___GitHub
         int[] sazkaNa = new int[50];
         int[] kolik = new int[50];
         int i = 0;
+        int[] cerveny = new int[] {1,3,5,7,9,12,14,16,18,19,21,23,25,27,30,32,34,36};
+        int[] cerny = new int[] {2,4,6,8,10,11,13,15,17,20,22,24,26,28,29,31,33,35};
+
 
 
         Form menu;
@@ -116,8 +119,24 @@ namespace DU___GitHub
             if (sazka > 0)
             {
                 listBox1.Items.Add(label2.Text.Substring(9) + " - " + sazka + "$");
-                sazkaNa[i] = int.Parse(label2.Text.Substring(9));
-                kolik[i] = sazka;
+                if (label2.Text.Substring(9) == "red" || label2.Text.Substring(9) == "black")
+                {
+                    if(label2.Text.Substring(9) == "red")
+                    {
+                        sazkaNa[i] = -1;
+                        kolik[i] = sazka;
+                    }
+                    else
+                    {
+                        sazkaNa[i] = -2;
+                        kolik[i] = sazka;
+                    }
+                }
+                else
+                {
+                    sazkaNa[i] = int.Parse(label2.Text.Substring(9));
+                    kolik[i] = sazka;
+                }
                 i++;
                 sazka = 0;
             }
@@ -130,23 +149,45 @@ namespace DU___GitHub
         {
             if (listBox1.Items.Count > 0)
             {
+                i = 0;
                 int pomocna = penize;
                 Random rng = new Random();
                 int random = rng.Next(37);
                 vyhra.Text = "Číslo je " + random;
-                for(int f = listBox1.Items.Count;f>=0;f--)
+                for(int f = 49;f>=0;f--)
                 {
                     if(random == sazkaNa[f])
                     {
                         if(random==0)
                         {
-                            penize += kolik[f]*5;
+                            penize += kolik[f]*10;
                         }
                         else
                         {
-                            penize += kolik[f] * 2;
+                            penize += kolik[f] * 5;
                         }
                         label6.Text = "Vyhrál jsi " + (penize - pomocna);
+                    }
+                    if(sazkaNa[f] == -1)
+                    {
+                        for(int k = 0;k<18;k++)
+                        {
+                            if(random == cerveny[k])
+                            {
+                                penize += kolik[f] * 2;
+                                label6.Text = "Vyhrál jsi " + (penize - pomocna);
+                            }
+                        }
+                    } else if(sazkaNa[f] == -2)
+                    {
+                        for (int k = 0; k < 18; k++)
+                        {
+                            if (random == cerny[k])
+                            {
+                                penize += kolik[f] * 2;
+                                label6.Text = "Vyhrál jsi " + (penize - pomocna);
+                            }
+                        }
                     }
                 }
                 money.Text = penize + "$";

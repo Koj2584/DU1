@@ -19,3 +19,25 @@ D:\Koj\Programování\GitHub\C#\DU1\DU - GitHub\DU - GitHub\obj\Debug\DU - GitHu
 D:\Koj\Programování\GitHub\C#\DU1\DU - GitHub\DU - GitHub\obj\Debug\DU - GitHub.csproj.CoreCompileInputs.cache
 D:\Koj\Programování\GitHub\C#\DU1\DU - GitHub\DU - GitHub\obj\Debug\DU - GitHub.exe
 D:\Koj\Programování\GitHub\C#\DU1\DU - GitHub\DU - GitHub\obj\Debug\DU - GitHub.pdb
+\\StudentNAS\Studenti\ITB2\vomelaj.05\Dokumenty\DU - GitHub\DU - GitHub\DU - GitHub\bin\Debug\DU - GitHub.exe.config
+\\StudentNAS\Studenti\ITB2\vomelaj.05\Dokumenty\DU - GitHub\DU - GitHub\DU - GitHub\bin\Debug\DU - GitHub.exe
+\\StudentNAS\Studenti\ITB2\vomelaj.05\Dokumenty\DU - GitHub\DU - GitHub\DU - GitHub\bin\Debug\DU - GitHub.pdb
+\\StudentNAS\Studenti\ITB2\vomelaj.05\Dokumenty\DU - GitHub\DU - GitHub\DU - GitHub\obj\Debug\DU - GitHub.csprojAssemblyReference.cache
+\\StudentNAS\Studenti\ITB2\vomelaj.05\Dokumenty\DU - GitHub\DU - GitHub\DU - GitHub\obj\Debug\DU___GitHub.Menu.resources
+\\StudentNAS\Studenti\ITB2\vomelaj.05\Dokumenty\DU - GitHub\DU - GitHub\DU - GitHub\obj\Debug\DU___GitHub.Form1.resources
+\\StudentNAS\Studenti\ITB2\vomelaj.05\Dokumenty\DU - GitHub\DU - GitHub\DU - GitHub\obj\Debug\DU___GitHub.Properties.Resources.resources
+\\StudentNAS\Studenti\ITB2\vomelaj.05\Dokumenty\DU - GitHub\DU - GitHub\DU - GitHub\obj\Debug\DU - GitHub.csproj.GenerateResource.cache
+\\StudentNAS\Studenti\ITB2\vomelaj.05\Dokumenty\DU - GitHub\DU - GitHub\DU - GitHub\obj\Debug\DU - GitHub.csproj.CoreCompileInputs.cache
+\\StudentNAS\Studenti\ITB2\vomelaj.05\Dokumenty\DU - GitHub\DU - GitHub\DU - GitHub\obj\Debug\DU - GitHub.exe
+\\StudentNAS\Studenti\ITB2\vomelaj.05\Dokumenty\DU - GitHub\DU - GitHub\DU - GitHub\obj\Debug\DU - GitHub.pdb
+G:\Dokumenty\DU - GitHub\DU - GitHub\DU - GitHub\obj\Debug\DU - GitHub.csprojAssemblyReference.cache
+G:\Dokumenty\DU - GitHub\DU - GitHub\DU - GitHub\obj\Debug\DU___GitHub.Menu.resources
+G:\Dokumenty\DU - GitHub\DU - GitHub\DU - GitHub\obj\Debug\DU___GitHub.Form1.resources
+G:\Dokumenty\DU - GitHub\DU - GitHub\DU - GitHub\obj\Debug\DU___GitHub.Properties.Resources.resources
+G:\Dokumenty\DU - GitHub\DU - GitHub\DU - GitHub\obj\Debug\DU - GitHub.csproj.GenerateResource.cache
+G:\Dokumenty\DU - GitHub\DU - GitHub\DU - GitHub\obj\Debug\DU - GitHub.csproj.CoreCompileInputs.cache
+G:\Dokumenty\DU - GitHub\DU - GitHub\DU - GitHub\obj\Debug\DU - GitHub.exe
+G:\Dokumenty\DU - GitHub\DU - GitHub\DU - GitHub\obj\Debug\DU - GitHub.pdb
+G:\Dokumenty\DU - GitHub\DU - GitHub\DU - GitHub\bin\Debug\DU - GitHub.exe.config
+G:\Dokumenty\DU - GitHub\DU - GitHub\DU - GitHub\bin\Debug\DU - GitHub.exe
+G:\Dokumenty\DU - GitHub\DU - GitHub\DU - GitHub\bin\Debug\DU - GitHub.pdb

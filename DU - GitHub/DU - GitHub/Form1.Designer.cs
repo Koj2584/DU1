@@ -750,7 +750,7 @@
             this.button37.ForeColor = System.Drawing.Color.White;
             this.button37.Location = new System.Drawing.Point(83, 235);
             this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(450, 70);
+            this.button37.Size = new System.Drawing.Size(451, 70);
             this.button37.TabIndex = 37;
             this.button37.Text = "Red";
             this.button37.UseVisualStyleBackColor = false;
@@ -767,7 +767,7 @@
             this.button38.ForeColor = System.Drawing.Color.White;
             this.button38.Location = new System.Drawing.Point(539, 235);
             this.button38.Name = "button38";
-            this.button38.Size = new System.Drawing.Size(450, 70);
+            this.button38.Size = new System.Drawing.Size(451, 70);
             this.button38.TabIndex = 38;
             this.button38.Text = "Black";
             this.button38.UseVisualStyleBackColor = false;
@@ -816,7 +816,7 @@
             this.panel1.Controls.Add(this.button19);
             this.panel1.Controls.Add(this.button17);
             this.panel1.Controls.Add(this.button18);
-            this.panel1.Location = new System.Drawing.Point(338, 335);
+            this.panel1.Location = new System.Drawing.Point(332, 335);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(996, 312);
             this.panel1.TabIndex = 39;
@@ -956,11 +956,11 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(77, 129);
+            this.label3.Location = new System.Drawing.Point(108, 129);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(177, 12);
+            this.label3.Size = new System.Drawing.Size(119, 12);
             this.label3.TabIndex = 49;
-            this.label3.Text = "(Do černého pole napiš kolik chceš vsadit)";
+            this.label3.Text = "(Tlačítka na ovládání sázky)";
             // 
             // button41
             // 
@@ -1046,6 +1046,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Elephant", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.Location = new System.Drawing.Point(6, 240);
@@ -1058,20 +1059,20 @@
             // 
             this.vyhra.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.vyhra.AutoSize = true;
-            this.vyhra.Font = new System.Drawing.Font("Cooper Black", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vyhra.Font = new System.Drawing.Font("Adobe Devanagari", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vyhra.Location = new System.Drawing.Point(665, 156);
             this.vyhra.Name = "vyhra";
-            this.vyhra.Size = new System.Drawing.Size(0, 74);
+            this.vyhra.Size = new System.Drawing.Size(0, 87);
             this.vyhra.TabIndex = 56;
             // 
             // label6
             // 
             this.label6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Cooper Black", 48F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Adobe Devanagari", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(665, 240);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(0, 74);
+            this.label6.Size = new System.Drawing.Size(0, 87);
             this.label6.TabIndex = 57;
             // 
             // Form1
@@ -1079,7 +1080,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGreen;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1340, 659);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.vyhra);
             this.Controls.Add(this.label4);
@@ -1088,7 +1091,6 @@
             this.Controls.Add(this.button44);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);
